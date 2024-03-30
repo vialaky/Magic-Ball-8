@@ -12,7 +12,7 @@ The program prompts the user to ask a question in order to randomly answer it.
 - Integers (type int);
 - Variables;
 - Data input/output (input() and print() functions);
-- Conditional statement (if/elif/else);
+- Conditional statement (if/else);
 - while loop;
 - Endless cycle;
 - Operators break, continue;
