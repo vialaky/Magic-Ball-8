@@ -25,7 +25,6 @@ def replay():
     """
     print('Wanna ask another question (Y/N)?')
     if input().lower() in ['y', 'Y', 'д', 'Д']:
-        # print("Let's continue the game...\n")
         return True
     else:
         print('Thanks for playing. Come back if you have any questions!')
@@ -38,9 +37,7 @@ def game():
     """
     while True:
         print('\nAsk your question')
-        question = input()
         print(random.choice(answers))
-
         if replay():
             continue
         else:
