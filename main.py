@@ -37,6 +37,7 @@ def game():
     """
     while True:
         print('\nAsk your question')
+        input()
         print(random.choice(answers))
         if replay():
             continue
